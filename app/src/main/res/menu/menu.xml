@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--appNs... shortcut za app namespace-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:id="@+id/action_delete"
+        app:showAsAction="always"
+        android:title="Delete" />
+
+    <item
+        android:icon="@drawable/ic_favorite_white_24dp"
+        android:id="@+id/action_favorite"
+        app:showAsAction="always"
+        android:title="Favorite" />
+
+    <item
+        android:icon="@drawable/ic_face_white_24dp"
+        android:id="@+id/action_profile"
+        app:showAsAction="always"
+        android:title="Profile" >
+
+        <menu>
+
+            <item
+                android:icon="@drawable/ic_search_white_24dp"
+                android:id="@+id/action_search"
+                app:showAsAction="always"
+                android:title="Search" />
+
+            <item
+                android:icon="@drawable/ic_home_white_24dp"
+                android:id="@+id/action_home"
+                app:showAsAction="always"
+                android:title="Home" />
+
+            <item
+                android:icon="@drawable/ic_list_white_24dp"
+                android:id="@+id/action_list"
+                app:showAsAction="always"
+                android:title="List" />
+
+        </menu>
+
+    </item>
+
+</menu>
