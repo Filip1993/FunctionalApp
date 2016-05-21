@@ -2,7 +2,9 @@ package com.filipkesteli.functionalapp;
 
 
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.ActionBar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +15,7 @@ import android.view.ViewGroup;
  */
 public class LightFragment extends Fragment {
 
+    private FloatingActionButton fabDashboard;
 
     public LightFragment() {
         // Required empty public constructor
@@ -23,7 +26,7 @@ public class LightFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_light, container, false);
+        View v = inflater.inflate(R.layout.fragment_light, container, false);
+        return v;
     }
-
 }

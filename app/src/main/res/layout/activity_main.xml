@@ -27,4 +27,13 @@
         android:background="#ffffff"
         android:id="@+id/viewPager" />
 
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="3dp"
+        android:id="@+id/fabDashboard"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_dashboard_white_24dp" />
+
 </LinearLayout>
+
